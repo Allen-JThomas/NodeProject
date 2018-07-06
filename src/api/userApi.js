@@ -16,6 +16,7 @@ function get(url) {
 }
 
 function del(url) {
+  console.log("IN HERE", baseUrl + url) // eslint-disable-line no-console
   const request = new Request(baseUrl + url, {
     method: 'DELETE'
   })
