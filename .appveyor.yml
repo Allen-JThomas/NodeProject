@@ -11,6 +11,10 @@ install:
   # install modules
   - npm install
 
+image:
+- Visual Studio 2015
+- Ubuntu
+
 # Post-install test scripts.
 test_script:
   # Output useful info for debugging.
